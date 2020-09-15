@@ -1,10 +1,10 @@
 var chocolateBars = 
 
-function addElementToBeginningOfArray(chocolateBars, string){
+function addElementToBeginningOfArray(chocolateBars, string) {
   return [string, ...chocolateBars];
 }
  
-function destructivelyAddElementToBeginningOfArray(chocolateBars, string){
+function destructivelyAddElementToBeginningOfArray(chocolateBars, string) {
   chocolateBars.unshift(string);
   return chocolateBars;
 }
