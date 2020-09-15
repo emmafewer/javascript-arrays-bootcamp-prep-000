@@ -1,15 +1,21 @@
 var chocolateBars = 
 
-function addElementToBeginningOfArray(a,b) {
- return [1,2,3,4]
- addElementToBeginningOfArray.unshift('n')
+function addElementToBeginningOfArray(chocolateBars, string){
+  return [string, ...chocolateBars];
+}
+ 
+function destructivelyAddElementToBeginningOfArray(chocolateBars, string){
+  chocolateBars.unshift(string);
+  return chocolateBars;
 }
 
-function destructivelyAddElementToBeginningOfArray(a,b) {
-  return [1,2,3,4]
-  destructivelyAddElementToBeginningOfArray.unshift('n')
+function addElementToEndOfArray(chocolateBars, string) {
+  return [...chocolateBars, string]
 }
 
-function destructivelyAddElementToBeginningOfArray(a,b) {
-  return []
+function destructivelyAddElementToBeginningOfArray(chocolateBars, string) {
+  chocolateBars.push(string);
+  return chocolateBars
 }
+
+
