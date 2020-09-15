@@ -22,6 +22,14 @@ function accessElementInArray(chocolateBars) {
   return chocolateBars[2];
 }
 
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
+  chocolateBars.shift(string);
+  return chocolateBars;
+}
 
+function removeElementFromBeginningOfArray(chocolateBars) {
+  chocolateBars.slice(1)
+  return chocolateBars;
+}
 
 
