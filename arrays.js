@@ -11,5 +11,5 @@ function destructivelyAddElementToBeginningOfArray(a,b) {
 }
 
 function destructivelyAddElementToBeginningOfArray(a,b) {
-  return
+  return []
 }
